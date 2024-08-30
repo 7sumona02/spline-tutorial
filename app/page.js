@@ -1,3 +1,4 @@
+import Astronaut from '@/components/Astronaut'
 import Earth from '@/components/Earth'
 import Rocket from '@/components/Rocket'
 import Space from '@/components/Space'
@@ -13,6 +14,7 @@ const page = () => {
     <div className='relative'>
       <div><Space /></div>
       <div className='absolute top-0'><Rocket /></div>
+      <div className='absolute top-0'><Astronaut /></div>
     </div>
   )
 }
